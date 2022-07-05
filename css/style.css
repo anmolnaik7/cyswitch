@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Saira', sans-serif;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    background-image:linear-gradient(90deg, #b47e11, #fef1a2, #bc881b) !important;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+.navbar{
+    padding-top: 1rem;
+}
+.gldn{
+    background-image: linear-gradient(90deg, #b47e11, #fef1a2, #bc881b);
+    font-weight: bold;
+}
+.gldn-border{
+    border-image: linear-gradient(to left, #b47e11, #fef1a2, #bc881b) 10 !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+    border-width: 2px;
+    border: solid;
+    background-image:linear-gradient(90deg, #b47e11, #fef1a2, #bc881b) ;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Section 1*/
+.section1 .content{
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.section1 .content .img {
+    width: 100%;
+}
+.section1 .content .img img{
+    width: 100%;
+}
+.section1 .content .text{
+    position: absolute;
+    bottom: 8%;
+    width: 70%;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section1 .content .text h1{
+    margin: 2.5rem 0rem;
+    font-size: 4vw;
+    font-weight: bold;
+}
+.section1 .content .text p{
+    margin: 2.5rem 0rem;
+}
+/*Section 2*/
+.section2{
+    padding: 20px 0px;
+}
+.section2 .data{
+    padding: 1.5rem;
+    background-image: linear-gradient(90deg, #bc891b2c, transparent);
+    border-radius: 8px !important;
+    color: #f9f7e8 ;
+}
+.section2 .data h2{
+    width: fit-content;
+}
+/*Section 3*/
+.section3 .row div{
+    padding: 3rem;
+}
+.section3 .text{
+    background-image: url();
+}
+.section3 .row img{
+    width: 100%;
+}
+
+/*Section 4*/
+.section4 .img img{
+    width: 100%;
+}
+.section4 .text{
+    padding: 2rem;
+    background-image: url();
+}
+.section4 .row div{
+    padding: 3rem;
+}
+/*section 5*/
+.section5 .pair-grid .txt{
+    padding: 0px 15px;
+}
+.section5 .pair-grid .txt h5{
+    margin: 0;
+    padding: 0px;
+    color: white;
+    -webkit-text-fill-color: white;
+}
+.section5 .pair-grid .txt p{
+    margin: 0;
+    padding: 0px;
+}
+.section5 .pair-grid .pair{
+    padding: 10px 25px;
+    background-color: transparent;
+}
+.section5 .pair-grid .pair .pair-card{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.046);
+    border-radius: 8px;
+}
+.section5 .pair .img2 img{
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
